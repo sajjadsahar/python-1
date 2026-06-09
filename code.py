@@ -26,18 +26,38 @@ this is a multi line comment in python
 
 # Arthmetic opration 
 
-a = 10
-b = 5
+# a = 10
+# b = 5
 
-sum = a + b
-mul = a * b
-div = a / b
+# sum = a + b
+# mul = a * b
+# div = a / b
 
-print(sum)
-print(mul)
-print(div)
-print(a%b)  
-print(a**b)  
-print(a<b)  
-print(a==b)  
-print(a!=b)  
+# print(sum)
+# print(mul)
+# print(div)
+# print(a%b)  
+# print(a**b)  
+# print(a<b)  
+# print(a==b)  
+# print(a!=b)  
+
+# type casting
+
+# ans = int(5 + 7.0)
+
+# print(ans,type(ans))
+
+
+#  How to take input in python
+
+# name = input("enter your name")
+
+# print(type(name))
+
+a = int(input("enter a  "))
+b= int(input("enter b  "))
+
+Sum = a + b ;
+
+print(Sum)
